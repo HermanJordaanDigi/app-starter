@@ -124,12 +124,12 @@
 
   /* Card hover effect */
   .card-hover {
-    @apply transition-smooth hover:shadow-lg hover:scale-[1.02];
+    @apply transition-all duration-200 ease-in-out hover:shadow-lg hover:scale-[1.02];
   }
 
   /* Button hover effect */
   .button-hover {
-    @apply transition-smooth hover:opacity-90;
+    @apply transition-all duration-200 ease-in-out hover:opacity-90;
   }
 
   /* Focus visible styles for accessibility */
