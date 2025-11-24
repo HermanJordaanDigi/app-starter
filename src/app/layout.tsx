@@ -16,9 +16,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Agentic Coding Boilerplate",
+  title: "SitePlan AI - AI-Powered Site Plan Generator",
   description:
-    "Complete agentic coding boilerplate with authentication, database, AI integration, and modern tooling - perfect for building AI-powered applications and autonomous agents by Leon van Zyl",
+    "Generate professional site plans in minutes with AI-powered property mapping and automated site plan generation. Perfect for real estate professionals, architects, and developers.",
+  keywords: ["site plan", "AI", "property mapping", "site plan generator", "real estate", "architecture"],
+  authors: [{ name: "SitePlan AI" }],
+  openGraph: {
+    title: "SitePlan AI - AI-Powered Site Plan Generator",
+    description: "Generate professional site plans in minutes with AI-powered property mapping and automated site plan generation.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SitePlan AI - AI-Powered Site Plan Generator",
+    description: "Generate professional site plans in minutes with AI-powered property mapping and automated site plan generation.",
+  },
 };
 
 export default function RootLayout({
