@@ -10,21 +10,23 @@ import {
 
 export default function FAQPage() {
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-4xl font-bold tracking-tight">
+    <div className="space-y-16">
+      {/* Header Section */}
+      <div className="text-center space-y-4 border-b pb-8">
+        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
           Frequently Asked Questions
         </h1>
-        <p className="mt-4 text-lg text-muted-foreground">
+        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           Find answers to common questions about SitePlan AI, billing, and
           features.
         </p>
       </div>
 
-      <div className="space-y-8">
-        <section>
+      {/* FAQ Sections */}
+      <div className="max-w-3xl mx-auto space-y-12">
+        <section className="text-center">
           <h2 className="mb-4 text-2xl font-semibold">General Questions</h2>
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full text-left">
             <AccordionItem value="item-1">
               <AccordionTrigger>What is SitePlan AI?</AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
@@ -74,9 +76,9 @@ export default function FAQPage() {
           </Accordion>
         </section>
 
-        <section>
+        <section className="text-center">
           <h2 className="mb-4 text-2xl font-semibold">Account & Billing</h2>
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full text-left">
             <AccordionItem value="billing-1">
               <AccordionTrigger>How do credits work?</AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
@@ -160,9 +162,9 @@ export default function FAQPage() {
           </Accordion>
         </section>
 
-        <section>
+        <section className="text-center">
           <h2 className="mb-4 text-2xl font-semibold">Using the App</h2>
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full text-left">
             <AccordionItem value="usage-1">
               <AccordionTrigger>
                 Can I edit a site plan after it&apos;s generated?
@@ -238,9 +240,9 @@ export default function FAQPage() {
           </Accordion>
         </section>
 
-        <section>
+        <section className="text-center">
           <h2 className="mb-4 text-2xl font-semibold">Technical Issues</h2>
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full text-left">
             <AccordionItem value="tech-1">
               <AccordionTrigger>
                 The map isn&apos;t loading. What should I do?
@@ -301,8 +303,11 @@ export default function FAQPage() {
             </AccordionItem>
           </Accordion>
         </section>
+      </div>
 
-        <section className="rounded-lg border bg-primary/5 p-6">
+      {/* Help Section */}
+      <div className="max-w-3xl mx-auto">
+        <div className="rounded-lg border bg-primary/5 p-6 text-center">
           <h2 className="mb-2 text-xl font-semibold">Still Need Help?</h2>
           <p className="text-muted-foreground">
             Can&apos;t find the answer you&apos;re looking for? Check out our{" "}
@@ -315,7 +320,7 @@ export default function FAQPage() {
             or contact our support team at support@siteplanai.com. We typically
             respond within 24 hours.
           </p>
-        </section>
+        </div>
       </div>
     </div>
   );

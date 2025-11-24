@@ -13,22 +13,24 @@ import {
 
 export default function HowToUsePage() {
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-4xl font-bold tracking-tight">How to Use</h1>
-        <p className="mt-4 text-lg text-muted-foreground">
+    <div className="space-y-16">
+      {/* Header Section */}
+      <div className="text-center space-y-4 border-b pb-8">
+        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">How to Use</h1>
+        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           Complete guide to creating and managing professional site plans with
           SitePlan AI.
         </p>
       </div>
 
-      <div className="space-y-8">
-        <section>
-          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2">
+      {/* Content Sections */}
+      <div className="max-w-4xl mx-auto space-y-12">
+        <section className="text-center">
+          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2 justify-center">
             <Search className="h-6 w-6 text-primary" />
             Finding a Property
           </h2>
-          <Card>
+          <Card className="text-left">
             <CardContent className="pt-6 space-y-4">
               <div>
                 <h3 className="mb-2 font-semibold">Address Search</h3>
@@ -50,12 +52,12 @@ export default function HowToUsePage() {
           </Card>
         </section>
 
-        <section>
-          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2">
+        <section className="text-center">
+          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2 justify-center">
             <Maximize2 className="h-6 w-6 text-primary" />
             Using the Map Controls
           </h2>
-          <div className="space-y-4">
+          <div className="space-y-4 text-left">
             <Card>
               <CardHeader>
                 <CardTitle className="text-lg">Zoom Controls</CardTitle>
@@ -119,12 +121,12 @@ export default function HowToUsePage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2">
+        <section className="text-center">
+          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2 justify-center">
             <MapPin className="h-6 w-6 text-primary" />
             Capturing Your View
           </h2>
-          <Card>
+          <Card className="text-left">
             <CardContent className="pt-6 space-y-4">
               <div>
                 <h3 className="mb-2 font-semibold">
@@ -196,12 +198,12 @@ export default function HowToUsePage() {
           </Card>
         </section>
 
-        <section>
-          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2">
+        <section className="text-center">
+          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2 justify-center">
             <Grid3x3 className="h-6 w-6 text-primary" />
             Viewing Your Site Plans
           </h2>
-          <Card>
+          <Card className="text-left">
             <CardContent className="pt-6 space-y-4">
               <div>
                 <h3 className="mb-2 font-semibold">Site Plans Gallery</h3>
@@ -241,12 +243,12 @@ export default function HowToUsePage() {
           </Card>
         </section>
 
-        <section>
-          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2">
+        <section className="text-center">
+          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2 justify-center">
             <Download className="h-6 w-6 text-primary" />
             Downloading Site Plans
           </h2>
-          <Card>
+          <Card className="text-left">
             <CardContent className="pt-6 space-y-4">
               <div>
                 <h3 className="mb-2 font-semibold">Export Options</h3>
@@ -275,12 +277,12 @@ export default function HowToUsePage() {
           </Card>
         </section>
 
-        <section>
-          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2">
+        <section className="text-center">
+          <h2 className="mb-4 text-2xl font-semibold flex items-center gap-2 justify-center">
             <Trash2 className="h-6 w-6 text-primary" />
             Managing Your Gallery
           </h2>
-          <Card>
+          <Card className="text-left">
             <CardContent className="pt-6 space-y-4">
               <div>
                 <h3 className="mb-2 font-semibold">Organizing Site Plans</h3>
@@ -319,8 +321,11 @@ export default function HowToUsePage() {
             </CardContent>
           </Card>
         </section>
+      </div>
 
-        <section className="rounded-lg border bg-primary/5 p-6">
+      {/* Help Section */}
+      <div className="max-w-3xl mx-auto">
+        <div className="rounded-lg border bg-primary/5 p-6 text-center">
           <h2 className="mb-2 text-xl font-semibold">Still Have Questions?</h2>
           <p className="text-muted-foreground">
             Check out our{" "}
@@ -333,7 +338,7 @@ export default function HowToUsePage() {
             for answers to common questions, or contact our support team for
             personalized assistance.
           </p>
-        </section>
+        </div>
       </div>
     </div>
   );

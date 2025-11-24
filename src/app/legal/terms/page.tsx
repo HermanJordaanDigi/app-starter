@@ -8,14 +8,14 @@ export const metadata: Metadata = {
 
 export default function TermsOfServicePage() {
   return (
-    <div className="container max-w-4xl py-12">
-      <div className="space-y-8">
+    <div className="container mx-auto max-w-4xl px-4 py-12">
+      <div className="space-y-10">
         {/* Header */}
-        <div className="space-y-2">
+        <div className="space-y-3 text-center border-b pb-8">
           <h1 className="text-4xl font-bold tracking-tight">
             Terms of Service
           </h1>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground text-sm">
             Last updated: November 24, 2025
           </p>
         </div>

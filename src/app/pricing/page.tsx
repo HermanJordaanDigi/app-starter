@@ -27,7 +27,7 @@ export default function PricingPage() {
   };
 
   return (
-    <div className="container py-12 space-y-16">
+    <div className="mx-auto max-w-7xl px-4 py-12 space-y-16">
       {/* Header Section */}
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">

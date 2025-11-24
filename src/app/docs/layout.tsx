@@ -8,8 +8,8 @@ export default function DocsLayout({
   return (
     <div className="flex min-h-[calc(100vh-4rem)]">
       <DocsSidebar />
-      <main className="flex-1 overflow-y-auto">
-        <div className="container max-w-4xl py-10">{children}</div>
+      <main className="flex-1 overflow-y-auto flex justify-center">
+        <div className="w-full max-w-4xl px-4 py-10">{children}</div>
       </main>
     </div>
   );

@@ -6,27 +6,32 @@ import { CheckCircle2, CreditCard, MapPin } from "lucide-react";
 
 export default function GettingStartedPage() {
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-4xl font-bold tracking-tight">Getting Started</h1>
-        <p className="mt-4 text-lg text-muted-foreground">
+    <div className="space-y-16">
+      {/* Header Section */}
+      <div className="text-center space-y-4 border-b pb-8">
+        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Getting Started</h1>
+        <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           Welcome to SitePlan AI! This guide will help you create your first
           professional site plan in just a few minutes.
         </p>
       </div>
 
-      <Alert>
-        <AlertDescription>
-          Currently running in <Badge variant="secondary">Demo Mode</Badge> -
-          All data is stored in-memory and will reset on page refresh. Sign in
-          with Google to persist your data.
-        </AlertDescription>
-      </Alert>
+      {/* Demo Mode Alert */}
+      <div className="max-w-3xl mx-auto">
+        <Alert>
+          <AlertDescription>
+            Currently running in <Badge variant="secondary">Demo Mode</Badge> -
+            All data is stored in-memory and will reset on page refresh. Sign in
+            with Google to persist your data.
+          </AlertDescription>
+        </Alert>
+      </div>
 
-      <div className="space-y-6">
-        <section>
+      {/* Content Sections */}
+      <div className="max-w-4xl mx-auto space-y-12">
+        <section className="text-center">
           <h2 className="mb-4 text-2xl font-semibold">Prerequisites</h2>
-          <ul className="space-y-2 text-muted-foreground">
+          <ul className="space-y-2 text-muted-foreground text-left max-w-2xl mx-auto">
             <li className="flex items-start gap-2">
               <CheckCircle2 className="mt-0.5 h-5 w-5 text-primary" />
               <span>
@@ -44,9 +49,9 @@ export default function GettingStartedPage() {
           </ul>
         </section>
 
-        <section>
+        <section className="text-center">
           <h2 className="mb-4 text-2xl font-semibold">Quick Start Guide</h2>
-          <div className="space-y-6">
+          <div className="space-y-6 text-left">
             <Card>
               <CardHeader>
                 <div className="flex items-center gap-3">
@@ -146,9 +151,9 @@ export default function GettingStartedPage() {
           </div>
         </section>
 
-        <section>
+        <section className="text-center">
           <h2 className="mb-4 text-2xl font-semibold">Next Steps</h2>
-          <div className="space-y-3">
+          <div className="space-y-3 text-left">
             <Link
               href="/docs/how-to-use"
               className="block rounded-lg border p-4 transition-colors hover:bg-accent"
@@ -171,8 +176,11 @@ export default function GettingStartedPage() {
             </Link>
           </div>
         </section>
+      </div>
 
-        <section className="rounded-lg border bg-primary/5 p-6">
+      {/* Help Section */}
+      <div className="max-w-3xl mx-auto">
+        <div className="rounded-lg border bg-primary/5 p-6 text-center">
           <h2 className="mb-2 text-xl font-semibold">Need Help?</h2>
           <p className="text-muted-foreground">
             If you&apos;re having trouble getting started, check out our{" "}
@@ -184,7 +192,7 @@ export default function GettingStartedPage() {
             </Link>{" "}
             or contact our support team for assistance.
           </p>
-        </section>
+        </div>
       </div>
     </div>
   );
