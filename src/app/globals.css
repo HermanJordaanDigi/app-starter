@@ -115,3 +115,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  /* Smooth transitions for interactive elements */
+  .transition-smooth {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-smooth hover:shadow-lg hover:scale-[1.02];
+  }
+
+  /* Button hover effect */
+  .button-hover {
+    @apply transition-smooth hover:opacity-90;
+  }
+
+  /* Focus visible styles for accessibility */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+}

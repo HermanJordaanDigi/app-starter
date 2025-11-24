@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { DemoModeProvider } from "@/contexts/demo-mode-context";
 import { DemoModeBanner } from "@/components/demo-mode-banner";
 import { MockDataProvider } from "@/contexts/mock-data-context";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,6 +62,7 @@ export default function RootLayout({
                 {children}
                 <SiteFooter />
               </div>
+              <Toaster />
             </MockDataProvider>
           </DemoModeProvider>
         </ThemeProvider>
