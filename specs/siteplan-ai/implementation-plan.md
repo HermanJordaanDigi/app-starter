@@ -305,94 +305,94 @@ This implementation plan outlines the step-by-step process to transform the exis
 
 ---
 
-## Phase 6: Create Site Plan Flow (3-4 hours)
+## Phase 6: Create Site Plan Flow (3-4 hours) ✅
 
 ### 6.1 Set Up New Site Plan Page
 
-- [ ] Create `src/app/site-plans/new/page.tsx`
-- [ ] Set up page layout with title: "Create New Site Plan"
-- [ ] Add back button to dashboard
-- [ ] Check demo mode and authentication
+- [x] Create `src/app/site-plans/new/page.tsx`
+- [x] Set up page layout with title: "Create New Site Plan"
+- [x] Add back button to dashboard
+- [x] Check demo mode and authentication
 
 ### 6.2 Create Address Autocomplete Component
 
-- [ ] Create `src/components/site-plans/address-autocomplete.tsx`
-- [ ] Import `use-places-autocomplete` hook
-- [ ] Create input field with label "Property Address"
-- [ ] Implement autocomplete dropdown
-- [ ] Handle selection to get coordinates (lat/lng)
-- [ ] Add clear button
-- [ ] Style with shadcn/ui Input component
+- [x] Create `src/components/site-plans/address-autocomplete.tsx`
+- [x] Import `use-places-autocomplete` hook
+- [x] Create input field with label "Property Address"
+- [x] Implement autocomplete dropdown
+- [x] Handle selection to get coordinates (lat/lng)
+- [x] Add clear button
+- [x] Style with shadcn/ui Input component
 
 ### 6.3 Create Interactive Map Component
 
-- [ ] Create `src/components/site-plans/interactive-map.tsx`
-- [ ] Import from `@vis.gl/react-google-maps`
-- [ ] Set up `<Map>` component:
-  - [ ] Default center and zoom
-  - [ ] Satellite view (mapTypeId)
-  - [ ] Marker at selected location
-- [ ] Add zoom controls (+/- buttons)
-- [ ] Add map type toggle (satellite/terrain)
-- [ ] Make map full-width, fixed height
-- [ ] Ensure responsive
+- [x] Create `src/components/site-plans/interactive-map.tsx`
+- [x] Import from `@vis.gl/react-google-maps`
+- [x] Set up `<Map>` component:
+  - [x] Default center and zoom
+  - [x] Satellite view (mapTypeId)
+  - [x] Marker at selected location
+- [x] Add zoom controls (+/- buttons)
+- [x] Add map type toggle (satellite/terrain)
+- [x] Make map full-width, fixed height
+- [x] Ensure responsive
 
 ### 6.4 Create Map Controls Component
 
-- [ ] Create `src/components/site-plans/map-controls.tsx`
-- [ ] Add zoom controls (+ and - buttons)
-- [ ] Add rotate controls (rotate left/right buttons)
-- [ ] Add reset view button
-- [ ] Position controls over map (top-right or bottom-right)
-- [ ] Style with shadcn/ui Button component
+- [x] Create `src/components/site-plans/map-controls.tsx`
+- [x] Add zoom controls (+ and - buttons)
+- [x] Add rotate controls (rotate left/right buttons)
+- [x] Add reset view button
+- [x] Position controls over map (top-right or bottom-right)
+- [x] Style with shadcn/ui Button component
 
 ### 6.5 Implement Capture Flow
 
-- [ ] Add "Capture & Generate Site Plan" button (large, primary)
-- [ ] Create click handler:
-  - [ ] Show loading spinner/state (3 seconds)
-  - [ ] Display toast message: "Coming soon - AI generation in development"
-  - [ ] Option to "Save as Draft" button appears
-- [ ] Implement save as draft:
-  - [ ] Create new site plan object
-  - [ ] Add to mock data store (in-memory)
-  - [ ] Show success toast
-  - [ ] Navigate to dashboard or gallery
+- [x] Add "Capture & Generate Site Plan" button (large, primary)
+- [x] Create click handler:
+  - [x] Show loading spinner/state (3 seconds)
+  - [x] Display toast message: "Coming soon - AI generation in development"
+  - [x] Option to "Save as Draft" button appears
+- [x] Implement save as draft:
+  - [x] Create new site plan object
+  - [x] Add to mock data store (in-memory)
+  - [x] Show success toast
+  - [x] Navigate to dashboard or gallery
 
 ### 6.6 Connect Address Input to Map
 
-- [ ] When address is selected, update map center
-- [ ] Add/move marker to new location
-- [ ] Auto-zoom to appropriate level
-- [ ] Store address and coordinates in component state
+- [x] When address is selected, update map center
+- [x] Add/move marker to new location
+- [x] Auto-zoom to appropriate level
+- [x] Store address and coordinates in component state
 
 ### 6.7 Add Form State Management
 
-- [ ] Set up state for:
-  - [ ] Selected address (string)
-  - [ ] Coordinates (lat/lng)
-  - [ ] Map zoom level
-  - [ ] Map rotation (heading)
-  - [ ] Loading state
-- [ ] Handle state updates from interactions
+- [x] Set up state for:
+  - [x] Selected address (string)
+  - [x] Coordinates (lat/lng)
+  - [x] Map zoom level
+  - [x] Map rotation (heading)
+  - [x] Loading state
+- [x] Handle state updates from interactions
 
 ### 6.8 Polish Create Flow
 
-- [ ] Add helpful instructions/tips
-- [ ] Add validation (require address before capture)
-- [ ] Ensure smooth transitions
-- [ ] Test all interactions
-- [ ] Make fully responsive
+- [x] Add helpful instructions/tips
+- [x] Add validation (require address before capture)
+- [x] Ensure smooth transitions
+- [x] Test all interactions
+- [x] Make fully responsive
 
 ### 6.9 Verify Create Flow
 
-- [ ] Test address search and selection
-- [ ] Test map interactions (zoom, pan, rotate)
-- [ ] Test capture button flow
-- [ ] Test save as draft
-- [ ] Verify navigation works
-- [ ] Run `npm run lint` and `npm run typecheck`
-- [ ] Commit changes: "Phase 6: Create site plan flow"
+- [x] Test address search and selection
+- [x] Test map interactions (zoom, pan, rotate)
+- [x] Test capture button flow
+- [x] Test save as draft
+- [x] Verify navigation works
+- [x] Run `npm run lint` and `npm run typecheck`
+- [x] Commit changes: "Phase 6: Create site plan flow"
 
 ---
 
