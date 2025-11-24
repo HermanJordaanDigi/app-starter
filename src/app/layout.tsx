@@ -4,6 +4,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { DemoModeProvider } from "@/contexts/demo-mode-context";
+import { DemoModeBanner } from "@/components/demo-mode-banner";
+import { MockDataProvider } from "@/contexts/mock-data-context";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -50,9 +53,16 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SiteHeader />
-          {children}
-          <SiteFooter />
+          <DemoModeProvider>
+            <MockDataProvider>
+              <DemoModeBanner />
+              <div className="pt-12">
+                <SiteHeader />
+                {children}
+                <SiteFooter />
+              </div>
+            </MockDataProvider>
+          </DemoModeProvider>
         </ThemeProvider>
       </body>
     </html>
