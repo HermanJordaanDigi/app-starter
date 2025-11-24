@@ -274,118 +274,118 @@
 ## 6. Acceptance Criteria
 
 ### AC-1: Landing Page
-- [ ] Landing page loads within 3 seconds
-- [ ] Hero section displays with clear headline and CTAs
-- [ ] Features section displays 4 feature cards with icons
-- [ ] "How It Works" section shows 3 numbered steps
-- [ ] Pricing section displays 3 pricing tiers with credits and prices
-- [ ] All buttons are clickable and navigate correctly
-- [ ] Page is fully responsive on desktop, tablet, and mobile
-- [ ] SEO meta tags are present and accurate
+- [x] Landing page loads within 3 seconds
+- [x] Hero section displays with clear headline and CTAs
+- [x] Features section displays 4 feature cards with icons
+- [x] "How It Works" section shows 3 numbered steps
+- [x] Pricing section displays 3 pricing tiers with credits and prices
+- [x] All buttons are clickable and navigate correctly
+- [x] Page is fully responsive on desktop, tablet, and mobile
+- [x] SEO meta tags are present and accurate
 
 ### AC-2: Authentication & Demo Mode
-- [ ] Demo mode banner is visible when active
-- [ ] Demo mode uses mock user data
-- [ ] Sign in redirects to dashboard
-- [ ] Sign out returns to landing page
-- [ ] User profile displays in header when authenticated
-- [ ] Protected routes redirect to sign-in when not authenticated
+- [x] Demo mode banner is visible when active
+- [x] Demo mode uses mock user data
+- [x] Sign in redirects to dashboard
+- [x] Sign out returns to landing page
+- [x] User profile displays in header when authenticated
+- [x] Protected routes redirect to sign-in when not authenticated
 
 ### AC-3: Dashboard
-- [ ] Dashboard displays 3 stat cards (credits, plan count, tier)
-- [ ] Credit balance shows with progress bar
-- [ ] Recent site plans table displays up to 5 items
-- [ ] "Create New Site Plan" button navigates to creation page
-- [ ] "Buy More Credits" button navigates to pricing
-- [ ] "View All" link navigates to gallery
+- [x] Dashboard displays 3 stat cards (credits, plan count, tier)
+- [x] Credit balance shows with progress bar
+- [x] Recent site plans table displays up to 5 items
+- [x] "Create New Site Plan" button navigates to creation page
+- [x] "Buy More Credits" button navigates to pricing
+- [x] "View All" link navigates to gallery
 
 ### AC-4: Create Site Plan Flow
-- [ ] Address input field displays with autocomplete
-- [ ] Selecting an address shows location on map
-- [ ] Map displays in satellite view
-- [ ] Zoom controls work correctly
-- [ ] Rotate controls update map orientation
-- [ ] "Capture & Generate" button shows loading state
-- [ ] After loading, "Coming soon" message displays
-- [ ] User can save as draft to gallery
+- [x] Address input field displays with autocomplete
+- [x] Selecting an address shows location on map
+- [x] Map displays in satellite view
+- [x] Zoom controls work correctly
+- [x] Rotate controls update map orientation
+- [x] "Capture & Generate" button shows loading state
+- [x] After loading, "Coming soon" message displays
+- [x] User can save as draft to gallery
 
 ### AC-5: Site Plans Gallery
-- [ ] Gallery displays all mock site plans
-- [ ] Each card shows thumbnail, address, date, status
-- [ ] Grid/list view toggle works
-- [ ] Search by address filters results
-- [ ] Status filter (draft/completed/archived) works
-- [ ] Clicking a card navigates to detail view
-- [ ] Empty state displays when no plans exist
+- [x] Gallery displays all mock site plans
+- [x] Each card shows thumbnail, address, date, status
+- [x] Grid/list view toggle works
+- [x] Search by address filters results
+- [x] Status filter (draft/completed/archived) works
+- [x] Clicking a card navigates to detail view
+- [x] Empty state displays when no plans exist
 
 ### AC-6: Site Plan Detail View
-- [ ] Address displays as page title
-- [ ] Status badge shows current status
-- [ ] Map displays property location
-- [ ] Created and modified dates are visible
-- [ ] Mock site plan image displays
-- [ ] Edit button navigates to edit mode (or shows message)
-- [ ] Download button simulates download
-- [ ] Delete button removes plan from gallery (in-memory)
+- [x] Address displays as page title
+- [x] Status badge shows current status
+- [x] Map displays property location
+- [x] Created and modified dates are visible
+- [x] Mock site plan image displays
+- [x] Edit button navigates to edit mode (or shows message)
+- [x] Download button simulates download
+- [x] Delete button removes plan from gallery (in-memory)
 
 ### AC-7: Pricing Page
-- [ ] Page displays 3 pricing cards (Basic, Pro, Elite)
-- [ ] Each card shows credits, price, features
-- [ ] "Buy Now" buttons open checkout modal
-- [ ] Modal displays package details
-- [ ] "Purchase" button shows success toast
-- [ ] Credit balance updates after mock purchase
-- [ ] Modal closes after purchase
+- [x] Page displays 3 pricing cards (Basic, Pro, Elite)
+- [x] Each card shows credits, price, features
+- [x] "Buy Now" buttons open checkout modal
+- [x] Modal displays package details
+- [x] "Purchase" button shows success toast
+- [x] Credit balance updates after mock purchase
+- [x] Modal closes after purchase
 
 ### AC-8: Credit System
-- [ ] Credit balance displays in dashboard
-- [ ] Credit balance displays in header/navigation
-- [ ] Generate button shows "Costs 1 credit" message
-- [ ] Mock generation does not deduct credits (UI only)
-- [ ] "Buy Credits" modal shows 3 package options
-- [ ] Purchasing adds credits to balance (in-memory)
+- [x] Credit balance displays in dashboard
+- [x] Credit balance displays in header/navigation
+- [x] Generate button shows "Costs 1 credit" message
+- [x] Mock generation does not deduct credits (UI only)
+- [x] "Buy Credits" modal shows 3 package options
+- [x] Purchasing adds credits to balance (in-memory)
 
 ### AC-9: Documentation
-- [ ] Documentation hub page displays with navigation
-- [ ] Sidebar shows all documentation sections
-- [ ] Getting Started guide has step-by-step instructions
-- [ ] How to Use guide includes screenshots/examples
-- [ ] FAQ section answers common questions
-- [ ] All links within docs work correctly
+- [x] Documentation hub page displays with navigation
+- [x] Sidebar shows all documentation sections
+- [x] Getting Started guide has step-by-step instructions
+- [x] How to Use guide includes screenshots/examples
+- [x] FAQ section answers common questions
+- [x] All links within docs work correctly
 
 ### AC-10: Legal Pages
-- [ ] Privacy Policy page displays complete policy
-- [ ] Terms of Service page displays complete terms
-- [ ] Cookie Policy page displays cookie information
-- [ ] All legal pages are accessible from footer
-- [ ] Legal pages have proper formatting and readability
+- [x] Privacy Policy page displays complete policy
+- [x] Terms of Service page displays complete terms
+- [x] Cookie Policy page displays cookie information
+- [x] All legal pages are accessible from footer
+- [x] Legal pages have proper formatting and readability
 
 ### AC-11: Profile Page
-- [ ] User info card displays name, email, avatar
-- [ ] Plan & credits card shows current tier and balance
-- [ ] Usage statistics display (plans created, credits used)
-- [ ] Account settings section has placeholder buttons
-- [ ] Page is responsive on all screen sizes
+- [x] User info card displays name, email, avatar
+- [x] Plan & credits card shows current tier and balance
+- [x] Usage statistics display (plans created, credits used)
+- [x] Account settings section has placeholder buttons
+- [x] Page is responsive on all screen sizes
 
 ### AC-12: Navigation & UI Polish
-- [ ] Site header displays on all pages
-- [ ] Logo links to home page
-- [ ] Navigation links work correctly
-- [ ] User profile dropdown shows menu items
-- [ ] Footer displays on all pages
-- [ ] Footer links navigate correctly
-- [ ] Dark/light mode toggle works
-- [ ] Theme preference persists across sessions
-- [ ] All pages are responsive
-- [ ] Loading states display for async operations
-- [ ] Toast notifications appear for user actions
+- [x] Site header displays on all pages
+- [x] Logo links to home page
+- [x] Navigation links work correctly
+- [x] User profile dropdown shows menu items
+- [x] Footer displays on all pages
+- [x] Footer links navigate correctly
+- [x] Dark/light mode toggle works
+- [x] Theme preference persists across sessions
+- [x] All pages are responsive
+- [x] Loading states display for async operations
+- [x] Toast notifications appear for user actions
 
 ### AC-13: Code Quality
-- [ ] `npm run lint` passes with no errors
-- [ ] `npm run typecheck` passes with no errors
-- [ ] No console errors in browser
-- [ ] All components have proper TypeScript types
-- [ ] Code follows established patterns and conventions
+- [x] `npm run lint` passes with no errors
+- [x] `npm run typecheck` passes with no errors
+- [x] No console errors in browser
+- [x] All components have proper TypeScript types
+- [x] Code follows established patterns and conventions
 
 ---
 
