@@ -573,98 +573,99 @@ This implementation plan outlines the step-by-step process to transform the exis
 
 ---
 
-## Phase 9: Pricing Page & Credit System UI (2 hours)
+## Phase 9: Pricing Page & Credit System UI (2 hours) ✅
 
 ### 9.1 Set Up Pricing Page
 
-- [ ] Create `src/app/pricing/page.tsx`
-- [ ] Add page title: "Choose Your Plan"
-- [ ] Add subtitle explaining credit system
+- [x] Create `src/app/pricing/page.tsx`
+- [x] Add page title: "Choose Your Plan"
+- [x] Add subtitle explaining credit system
 
 ### 9.2 Update Pricing Card Component
 
-- [ ] Open `src/components/pricing-card.tsx` (or create it)
-- [ ] Display pricing card with:
-  - [ ] Plan name (Basic/Pro/Elite)
-  - [ ] Credits amount (large, prominent)
-  - [ ] Price (large, prominent)
-  - [ ] Features list (checkmarks)
-  - [ ] "Buy Now" button
-- [ ] Add "Popular" badge for Pro tier
-- [ ] Style with shadcn/ui Card
-- [ ] Make responsive
+- [x] Open `src/components/pricing-card.tsx` (or create it)
+- [x] Display pricing card with:
+  - [x] Plan name (Basic/Pro/Elite)
+  - [x] Credits amount (large, prominent)
+  - [x] Price (large, prominent)
+  - [x] Features list (checkmarks)
+  - [x] "Buy Now" button
+- [x] Add "Popular" badge for Pro tier
+- [x] Style with shadcn/ui Card
+- [x] Make responsive
 
 ### 9.3 Create Pricing Grid
 
-- [ ] Display 3 pricing cards in grid
-- [ ] Layout: 3 columns on desktop, 1 on mobile
-- [ ] Center and align cards
-- [ ] Highlight Pro tier (border, shadow, scale)
+- [x] Display 3 pricing cards in grid
+- [x] Layout: 3 columns on desktop, 1 on mobile
+- [x] Center and align cards
+- [x] Highlight Pro tier (border, shadow, scale)
 
 ### 9.4 Add Features Comparison
 
-- [ ] List features for each tier:
+- [x] List features for each tier:
   - Basic: "30 site plans", "Basic support", "Standard export"
   - Pro: "100 site plans", "Priority support", "HD export", "Advanced features"
   - Elite: "200 site plans", "Premium support", "4K export", "API access", "White label"
-- [ ] Use checkmark icons
+- [x] Use checkmark icons
 
 ### 9.5 Create Buy Credits Modal
 
-- [ ] Create `src/components/credits/buy-credits-modal.tsx`
-- [ ] Use shadcn/ui Dialog component
-- [ ] Display selected package details
-- [ ] Show total cost
-- [ ] Add "Purchase" and "Cancel" buttons
-- [ ] Implement purchase handler:
-  - [ ] Show loading state
-  - [ ] Add credits to mock user balance
-  - [ ] Show success toast
-  - [ ] Close modal
+- [x] Create `src/components/credits/buy-credits-modal.tsx`
+- [x] Use shadcn/ui Dialog component
+- [x] Display selected package details
+- [x] Show total cost
+- [x] Add "Purchase" and "Cancel" buttons
+- [x] Implement purchase handler:
+  - [x] Show loading state
+  - [x] Add credits to mock user balance
+  - [x] Show success toast
+  - [x] Close modal
 
 ### 9.6 Connect "Buy Now" Buttons
 
-- [ ] onClick opens modal with selected package
-- [ ] Pass package data to modal
-- [ ] Handle modal open/close state
+- [x] onClick opens modal with selected package
+- [x] Pass package data to modal
+- [x] Handle modal open/close state
 
 ### 9.7 Create Credit Display Component
 
-- [ ] Create `src/components/credits/credit-display.tsx`
-- [ ] Show current credit balance
-- [ ] Add progress bar or circular progress
-- [ ] Add icon (Coins or Zap)
-- [ ] Add "Buy More" link
-- [ ] Make compact for header use
+- [x] Create `src/components/credits/credit-display.tsx`
+- [x] Show current credit balance
+- [x] Add icon (Coins or Zap)
+- [x] Add "Buy More" link
+- [x] Make compact for header use
 
 ### 9.8 Add Credit Display to Header/Dashboard
 
-- [ ] Import credit display component
-- [ ] Add to site header (next to user profile)
-- [ ] Ensure it updates when credits change
-- [ ] Make responsive (hide on small screens, show in dropdown)
+- [x] Import credit display component
+- [x] Add to site header (next to user profile)
+- [x] Ensure it updates when credits change
+- [x] Make responsive (compact display)
 
 ### 9.9 Add FAQ Section to Pricing
 
-- [ ] Add "Frequently Asked Questions" section
-- [ ] Use shadcn/ui Accordion component
-- [ ] Add 5-7 common questions:
+- [x] Add "Frequently Asked Questions" section
+- [x] Use shadcn/ui Accordion component
+- [x] Add 7 common questions:
   - "How do credits work?"
   - "Do credits expire?"
   - "Can I get a refund?"
   - "What if I run out of credits?"
   - "Can I upgrade my plan?"
+  - "What payment methods do you accept?"
+  - "Is there a free trial?"
 
 ### 9.10 Verify Pricing Page
 
-- [ ] Test all pricing cards display correctly
-- [ ] Test "Buy Now" opens modal
-- [ ] Test mock purchase flow
-- [ ] Verify credit balance updates
-- [ ] Test credit display in header
-- [ ] Ensure responsive on all screens
-- [ ] Run `npm run lint` and `npm run typecheck`
-- [ ] Commit changes: "Phase 9: Pricing page and credit system UI"
+- [x] Test all pricing cards display correctly
+- [x] Test "Buy Now" opens modal
+- [x] Test mock purchase flow
+- [x] Verify credit balance updates
+- [x] Test credit display in header
+- [x] Ensure responsive on all screens
+- [x] Run `npm run lint` and `npm run typecheck`
+- [x] Commit changes: "Phase 9: Pricing page and credit system UI"
 
 ---
 

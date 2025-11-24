@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { UserProfile } from "@/components/auth/user-profile";
 import { ModeToggle } from "./ui/mode-toggle";
+import { CreditDisplay } from "@/components/credits/credit-display";
 import { MapPin } from "lucide-react";
 
 export function SiteHeader() {
@@ -35,6 +36,7 @@ export function SiteHeader() {
           </Link>
         </nav>
         <div className="flex items-center gap-4">
+          <CreditDisplay compact />
           <UserProfile />
           <ModeToggle />
         </div>
