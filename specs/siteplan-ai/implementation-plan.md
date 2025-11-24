@@ -761,89 +761,89 @@ This implementation plan outlines the step-by-step process to transform the exis
 
 ---
 
-## Phase 11: Legal Pages (1-2 hours)
+## Phase 11: Legal Pages (1-2 hours) ✅
 
 ### 11.1 Set Up Legal Pages Structure
 
-- [ ] Create `src/app/legal` directory
-- [ ] Plan for shared layout (optional)
+- [x] Create `src/app/legal` directory
+- [x] Plan for shared layout (optional)
 
 ### 11.2 Create Privacy Policy Page
 
-- [ ] Create `src/app/legal/privacy/page.tsx`
-- [ ] Add page title: "Privacy Policy"
-- [ ] Add last updated date
-- [ ] Add content sections:
-  - [ ] Introduction
-  - [ ] Information We Collect
-  - [ ] How We Use Your Information
-  - [ ] Data Storage and Security
-  - [ ] Third-Party Services (Google Maps, OAuth)
-  - [ ] Cookies and Tracking
-  - [ ] Your Rights
-  - [ ] Changes to Policy
-  - [ ] Contact Information
-- [ ] Use standard privacy policy template
-- [ ] Replace placeholders with "SitePlan AI"
+- [x] Create `src/app/legal/privacy/page.tsx`
+- [x] Add page title: "Privacy Policy"
+- [x] Add last updated date
+- [x] Add content sections:
+  - [x] Introduction
+  - [x] Information We Collect
+  - [x] How We Use Your Information
+  - [x] Data Storage and Security
+  - [x] Third-Party Services (Google Maps, OAuth)
+  - [x] Cookies and Tracking
+  - [x] Your Rights
+  - [x] Changes to Policy
+  - [x] Contact Information
+- [x] Use standard privacy policy template
+- [x] Replace placeholders with "SitePlan AI"
 
 ### 11.3 Create Terms of Service Page
 
-- [ ] Create `src/app/legal/terms/page.tsx`
-- [ ] Add page title: "Terms of Service"
-- [ ] Add last updated date
-- [ ] Add content sections:
-  - [ ] Agreement to Terms
-  - [ ] Use License
-  - [ ] Credit System and Purchases
-  - [ ] User Responsibilities
-  - [ ] Intellectual Property
-  - [ ] Service Availability
-  - [ ] Limitation of Liability
-  - [ ] Termination
-  - [ ] Governing Law
-  - [ ] Changes to Terms
-  - [ ] Contact Information
-- [ ] Use standard ToS template
+- [x] Create `src/app/legal/terms/page.tsx`
+- [x] Add page title: "Terms of Service"
+- [x] Add last updated date
+- [x] Add content sections:
+  - [x] Agreement to Terms
+  - [x] Use License
+  - [x] Credit System and Purchases
+  - [x] User Responsibilities
+  - [x] Intellectual Property
+  - [x] Service Availability
+  - [x] Limitation of Liability
+  - [x] Termination
+  - [x] Governing Law
+  - [x] Changes to Terms
+  - [x] Contact Information
+- [x] Use standard ToS template
 
 ### 11.4 Create Cookie Policy Page
 
-- [ ] Create `src/app/legal/cookies/page.tsx`
-- [ ] Add page title: "Cookie Policy"
-- [ ] Add last updated date
-- [ ] Add content sections:
-  - [ ] What Are Cookies
-  - [ ] How We Use Cookies
-  - [ ] Types of Cookies We Use (Essential, Analytics, Preferences)
-  - [ ] Third-Party Cookies
-  - [ ] Managing Cookies
-  - [ ] Changes to Policy
-  - [ ] Contact Information
+- [x] Create `src/app/legal/cookies/page.tsx`
+- [x] Add page title: "Cookie Policy"
+- [x] Add last updated date
+- [x] Add content sections:
+  - [x] What Are Cookies
+  - [x] How We Use Cookies
+  - [x] Types of Cookies We Use (Essential, Analytics, Preferences)
+  - [x] Third-Party Cookies
+  - [x] Managing Cookies
+  - [x] Changes to Policy
+  - [x] Contact Information
 
 ### 11.5 Style Legal Pages
 
-- [ ] Use consistent typography
-- [ ] Add table of contents at top (optional)
-- [ ] Ensure proper heading hierarchy
-- [ ] Add spacing between sections
-- [ ] Make text readable (max-width for content)
-- [ ] Test dark mode appearance
+- [x] Use consistent typography
+- [x] Add table of contents at top (optional)
+- [x] Ensure proper heading hierarchy
+- [x] Add spacing between sections
+- [x] Make text readable (max-width for content)
+- [x] Test dark mode appearance
 
 ### 11.6 Add Legal Links to Footer
 
-- [ ] Update `src/components/site-footer.tsx`
-- [ ] Add "Legal" section
-- [ ] Link to Privacy Policy
-- [ ] Link to Terms of Service
-- [ ] Link to Cookie Policy
+- [x] Update `src/components/site-footer.tsx`
+- [x] Add "Legal" section
+- [x] Link to Privacy Policy
+- [x] Link to Terms of Service
+- [x] Link to Cookie Policy
 
 ### 11.7 Verify Legal Pages
 
-- [ ] Test all links from footer
-- [ ] Verify content is readable
-- [ ] Test responsiveness
-- [ ] Check for placeholder text that needs updating
-- [ ] Run `npm run lint` and `npm run typecheck`
-- [ ] Commit changes: "Phase 11: Legal pages"
+- [x] Test all links from footer
+- [x] Verify content is readable
+- [x] Test responsiveness
+- [x] Check for placeholder text that needs updating
+- [x] Run `npm run lint` and `npm run typecheck`
+- [x] Commit changes: "Phase 11: Legal pages"
 
 ---
 
